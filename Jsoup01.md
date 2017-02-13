@@ -18,12 +18,3 @@ Jonathan Hedley的个人站：[`https://jhy.io/`](https://jhy.io/)
 **Github地址**：[https://github.com/jhy/jsoup](https://github.com/jhy/jsoup)
 **最新release版本**：`1.10.2`<font color=#006600 size=1>(2017-Jan-02)</font>
 **jar包下载**：[https://jsoup.org/download](https://jsoup.org/download)
-
-
-**Jsoup中类的层次结构**
-
-<font color=#993366 face='Consolas' size=3>
-*java.lang.**<font color=#000000>Object</font>***
-&nbsp;&nbsp;&nbsp;&nbsp;*org.jsoup.nodes.**<font color=#000000>Node</font>***
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*org.jsoup.nodes.**<font color=#000000>Element</font>***
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*org.jsoup.nodes.**<font color=#000000>Document</font>** *</font>

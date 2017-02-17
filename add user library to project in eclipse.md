@@ -24,3 +24,12 @@
 **导出userlibrary**
 1、点击eclipse的window菜单、选择"Preferences"。
 2、在Preferences窗口中选择Java --> User Libraries、选择所要导出的userlibrary、右侧点击`Export...`、Browse...选择所要导出的位置、输入所要定义的类库名、点击OK。你可以在刚才所导出的位置中找到`xxx.userlibrary`文件
+
+> 本文原创由`_Tata`发布于blog.csdn.net，转载请务必注明出处。
+
+<br>
+<br>
+<p align="right">
+<span style="font-family:SimSun;font-size:13px; line-height:2.2"></span><span style="font-family:SimSun;"><img src="http://s11.flagcounter.com/count2/Ztk/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_12/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" />
+</span>
+</p>

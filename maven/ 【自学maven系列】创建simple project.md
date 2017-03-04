@@ -31,3 +31,14 @@
 
 　　　pom.xml中的Overview tab 可以看到在No.3(图2)中的配置均在此处有体现
 ![](http://olo4ewtc9.bkt.clouddn.com/04.png)
+
+
+
+> 本文原创由`bluetata`发布于blog.csdn.net、转载请务必注明出处。
+
+
+<br>
+<p align="right">
+<span style="font-family:SimSun;font-size:13px; line-height:2.2"></span><span style="font-family:SimSun;"><img src="http://s11.flagcounter.com/count2/Ztk/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_12/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" />
+</span>
+</p>

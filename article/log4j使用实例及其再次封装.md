@@ -6,7 +6,7 @@
 我相信Java中你所了解的第一个日志组件很有可能就是`log4j`、当然日志组件不止一家、常用的日志组件还有：,`common-logging`,`slf4j`等、在hibernate中`slf4j`是默认的输出组件。本文章记录分为两篇
 
 * log4j.properties配置详解
-* log4j使用实例及其再次封装
+* log4简单使用实例及其再次封装
 
 First、在程序代码中怎样使用Log4j。
 
@@ -18,7 +18,7 @@ DOMConfigurator.configure ( String filename ) ：读取XML形式的配置文件�
 
 >PropertyConfigurator.configure("log4j.properties");
 
-对于一般的java project 可以不使用上面的语句初始化log4j，log4j会自动在classpath下，找到配置文件并初始化。如果log4j不能自动初始化配置文件，那么就需要用上面的方法进行初始化。
+对于一般的java project 可以不使用上面的语句初始化log4j、log4j会自动在classpath下、找到配置文件并初始化。如果log4j不能自动初始化配置文件、那么就需要用上面的方法进行初始化。
 
 2、获取记录器Logger
    在需要使用log4j的地方获取Logger实例。

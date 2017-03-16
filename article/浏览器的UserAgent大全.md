@@ -1,6 +1,12 @@
-原谅我标题党了一回、称之为User-Agent大全肯定是不可能了、浏览器种类及版本繁多、可能你想要的在这里就找不到、不过我会定期维护此文章来保证`User-Agent`最新化。也恳请爱好爬虫的同仁们在转载的时候请加注出处Thx。
+---
+title:  浏览器的UserAgent大全
+tags:
+  - 网络爬虫
+---
 
-1，为什么需要修改UserAgent
+原谅我标题党了一回、称之为User-Agent大全肯定是不可能了、浏览器种类及版本繁多、可能你想要的在这里就找不到、不过我会定期维护此文章来保证`User-Agent`最新化。也恳请爱好爬虫的同仁们在转载的时候请加注出处 thx。
+
+**1**，为什么需要修改UserAgent
 
 在写网络爬虫程序的时候，经常需要修改UserAgent，有很多原因，罗列几个如下：
 
@@ -11,7 +17,7 @@
 
 修改agent值这个操作本身比较简单，UserAgent值是一串字符串，替换上即可，主要是用对UserAgent值。下面列出常用浏览器的useragent：
 
-2，PC端的UserAgent
+**2**，PC端的UserAgent
 
 **safari 5.1 – MAC**
 User-Agent:Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50
@@ -76,7 +82,7 @@ User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Avant Browser)
 **Green Browser**
 User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
 
-3，移动端UserAgent
+**3**，移动端UserAgent
 
 **safari iOS 4.33 – iPhone**
 User-Agent:Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
@@ -124,5 +130,5 @@ User-Agent: Openwave/ UCWEB7.0.2.37/28/999
 User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; ) Opera/UCWEB7.0.2.37/28/999
 
 
-4，文档修改历史
+**4**，文档修改历史
 2017/03/16　V1.0

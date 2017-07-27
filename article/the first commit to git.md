@@ -1,29 +1,3 @@
-total 13
--rw-r--r-- 1 bluetata 197121 2263 Feb 17 11:03 'add user library to project in eclipse.md'
-drwxr-xr-x 1 bluetata 197121    0 May 11 16:18  article/
-drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  interviews/
-drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  jsoup/
-drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  maven/
--rw-r--r-- 1 bluetata 197121   73 Mar 28 19:02  README.md
--rw-r--r-- 1 bluetata 197121 2154 Feb  8 10:06 'solution of tomcat 404.md'
-
-bluetata@IBM012-PC06874U MINGW64 /d/001_workspaces/098_Github/blog.csdn.dietime1943 (master)
-$ git add -A
-
-bluetata@IBM012-PC06874U MINGW64 /d/001_workspaces/098_Github/blog.csdn.dietime1943 (master)
-$ git commit -m 'commit test'
-
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: unable to auto-detect email address (got 'bluetata@IBM012-PC06874U.(none)')
 
 bluetata@IBM012-PC06874U MINGW64 /d/001_workspaces/098_Github/blog.csdn.dietime1943 (master)
 $ ll
@@ -31,7 +5,7 @@ total 13
 -rw-r--r-- 1 bluetata 197121 2263 Feb 17 11:03 'add user library to project in eclipse.md'
 drwxr-xr-x 1 bluetata 197121    0 May 11 16:18  article/
 drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  interviews/
-drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  jsoup/
+drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  jsoup/  
 drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  maven/
 -rw-r--r-- 1 bluetata 197121   73 Mar 28 19:02  README.md
 -rw-r--r-- 1 bluetata 197121 2154 Feb  8 10:06 'solution of tomcat 404.md'
@@ -61,55 +35,7 @@ bluetata@IBM012-PC06874U MINGW64 /d/001_workspaces/098_Github/blog.csdn.dietime1
 $ git config --global user.name "bluetata"
 
 bluetata@IBM012-PC06874U MINGW64 /d/001_workspaces/098_Github/blog.csdn.dietime1943 (master)
-$ ll
-total 13
--rw-r--r-- 1 bluetata 197121 2263 Feb 17 11:03 'add user library to project in eclipse.md'
-drwxr-xr-x 1 bluetata 197121    0 May 11 16:18  article/
-drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  interviews/
-drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  jsoup/
-drwxr-xr-x 1 blue tata 197121    0 Mar 29 22:10  maven/
--rw-r--r-- 1 bluetata 197121   73 Mar 28 19:02  README.md
--rw-r--r-- 1 bluetata 197121 2154 Feb  8 10:06 'solution of tomcat 404.md'
-
-bluetata@IBM012-PC06874U MINGW64 /d/001_workspaces/098_Github/blog.csdn.dietime1943 (master)
-$ git add -a
-error: unknown switch `a'
-usage: git add [<options>] [--] <pathspec>...
-
-    -n, --dry-run         dry run
-    -v, --verbose         be verbose
-
-    -i, --interactive     interactive picking
-    -p, --patch           select hunks interactively
-    -e, --edit            edit current diff and apply
-    -f, --force           allow adding otherwise ignored files
-    -u, --update          update tracked files
-    -N, --intent-to-add   record only the fact that the path will be added later
-    -A, --all             add changes from all tracked and untracked files
-    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
-    --refresh             don't add, only refresh the index
-    --ignore-errors       just skip files which cannot be added because of errors
-    --ignore-missing      check if - even missing - files are ignored in dry run
-    --chmod <(+/-)x>      override the executable bit of the listed files
-
-
-bluetata@IBM012-PC06874U MINGW64 /d/001_workspaces/098_Github/blog.csdn.dietime1943 (master)
-$ ll
-total 13
--rw-r--r-- 1 bluetata 197121 2263 Feb 17 11:03 'add user library to project in eclipse.md'
-drwxr-xr-x 1 bluetata 197121    0 May 11 16:18  article/
-drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  interviews/
-drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  jsoup/
-drwxr-xr-x 1 bluetata 197121    0 Mar 29 22:10  maven/
--rw-r--r-- 1 bluetata 197121   73 Mar 28 19:02  README.md
--rw-r--r-- 1 bluetata 197121 2154 Feb  8 10:06 'solution of tomcat 404.md'
-
-bluetata@IBM012-PC06874U MINGW64 /d/001_workspaces/098_Github/blog.csdn.dietime1943 (master)
 $ git add -A
-
-bluetata@IBM012-PC06874U MINGW64 /d/001_workspaces/098_Github/blog.csdn.dietime1943 (master)
-$ git commit "commit test"
-error: pathspec 'commit test' did not match any file(s) known to git.
 
 bluetata@IBM012-PC06874U MINGW64 /d/001_workspaces/098_Github/blog.csdn.dietime1943 (master)
 $ git commit -m "commit test"
